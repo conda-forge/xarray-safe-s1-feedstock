@@ -24,7 +24,7 @@ requirements:
     - python >=3.10
     - geopandas
     - numpy
-    - xarray >= 2024.10.0
+    - xarray >=2024.10.0
     - rasterio
     - rioxarray
     - lxml
