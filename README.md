@@ -148,5 +148,6 @@ Feedstock Maintainers
 =====================
 
 * [@agrouaze](https://github.com/agrouaze/)
+* [@vincelhx](https://github.com/vincelhx/)
 * [@yreynaud](https://github.com/yreynaud/)
 
