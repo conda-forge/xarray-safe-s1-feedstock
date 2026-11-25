@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "xarray-safe-s1" %}
-{% set version = "2026.11.18" %}
+{% set version = "2026.11.25" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: e2039ca3a44321eb69226fb8c9b33ceaf2b96294b90b7ff83bcb68b5970098f0
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 382e21bca13404af4cc1e721586a17f992488a68eba0538d256237253d5d9797
 
 build:
   noarch: python
